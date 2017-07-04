@@ -1,0 +1,585 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clear {
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  line-height: 0px;
+  font-size: 0px;
+}
+a {
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+a.ajax {
+  text-decoration: none;
+  border-bottom: 1px dotted #ccc;
+}
+a.ajax:hover {
+  border-bottom: none;
+}
+body {
+  font: 12px/16px Tahoma, sans-serif;
+  color: #363636;
+}
+body a {
+  color: #363636;
+}
+body strong {
+  font-weight: bold;
+}
+/* c */
+/* header */
+.c-header {
+  width: 960px;
+  margin: 0 auto;
+  padding: 40px 0px 40px;
+}
+/* wrap */
+.c-wrap {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+/* content */
+.c-content {
+  width: 960px;
+  margin: 0 auto;
+}
+.c-content .c-left {
+  float: left;
+  width: 628px;
+}
+.c-content .c-left .cols {
+  margin: 20px 0px 0px 0px;
+}
+.c-content .c-left .cols .col1 {
+  float: left;
+  width: 330px;
+}
+.c-content .c-left .cols .col2 {
+  float: left;
+  width: 200px;
+}
+.c-content .c-left .cols .b-sidefield {
+  margin-bottom: 0px;
+}
+.c-content .c-right {
+  float: right;
+  width: 305px;
+}
+/* footer */
+.c-footer {
+  background: #3392ce;
+  color: #fff;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+}
+/* b */
+.title_country {
+  font: 24px/1.3 'Philosopher', sans-serif;
+}
+.b-line {
+  background: url(i/b-line/bg.jpg) top left repeat-x;
+  height: 3px;
+  overflow: hidden;
+}
+.b-slogan {
+  font-family: 'Philosopher', sans-serif;
+  margin-top: 24px;
+  font-size: 34px;
+  float: left;
+}
+.b-slogan a {
+  color: #0076c0;
+}
+.b-slogan img {
+  vertical-align: 3px;
+}
+.b-phone {
+  float: right;
+  font-family: 'Philosopher', sans-serif;
+  color: #0076c0;
+  position: relative;
+  font-size: 34px;
+}
+.b-phone span {
+  font-size: 24px;
+}
+.b-phone img {
+  position: absolute;
+  top: -15px;
+  left: -340px;
+}
+.b-phone p {
+  margin-top: 26px;
+}
+.b-footer-contact {
+  float: left;
+}
+.b-footer-contact img.logo {
+  float: left;
+}
+.b-footer-contact .data {
+  margin-left: 0px;
+  line-height: 21px;
+}
+.b-footer-contact .data p {
+  color: #fff;
+}
+.b-footer-contact .data img {
+  vertical-align: -4px;
+}
+.b-counters {
+  float: right;
+  padding-top: 23px;
+}
+.b-infobar img {
+  float: left;
+}
+.b-infobar .data {
+  font-family: 'Philosopher', sans-serif;
+  margin-left: 120px;
+}
+.b-infobar .data .name {
+  padding-top: 4px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.b-infobar .data .links {
+  font-size: 14px;
+  line-height: 20px;
+}
+.b-infofield {
+  clear: both;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.b-infofield .label {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.b-infofield .label span {
+  font-size: 14px;
+}
+.b-infofield .label span a {
+  color: #5e9000;
+}
+.b-infofield .data {
+  line-height: 18px;
+  margin-left: 18px;
+}
+.b-infofield .data ul {
+  width: 240px;
+  float: left;
+  margin-right: 20px;
+}
+.b-infofield .images {
+  margin-left: 8px;
+}
+.b-infofield .images p {
+  margin-left: 10px;
+}
+.b-infofield .images p a {
+  color: #5e9000;
+  font-weight: bold;
+}
+.b-infofield .images img {
+  float: left;
+  margin: 0px 0px 10px 10px;
+}
+.b-infofield .images img.hide {
+  display: none;
+}
+.b-infofield .opinions {
+  margin-bottom: 40px;
+}
+.b-infofield .opinions .opinion {
+  margin-bottom: 20px;
+}
+.b-infofield .opinions img {
+  float: left;
+}
+.b-infofield .opinions .data {
+  margin-left: 40px;
+}
+.b-infofield .opinions .data p.anounce {
+  margin-top: 15px;
+}
+.b-infofield .opinions .data p.text {
+  margin-top: 15px;
+  display: none;
+}
+.b-infofield .opinions .data p.evaluation {
+  color: #5e9000;
+  float: right;
+}
+.b-infofield .opinions .data p.evaluation span.eva {
+  float: right;
+  margin-left: 30px;
+}
+.b-infofield .opinions .data p.all {
+  margin-top: 10px;
+}
+.b-infofield .opinions .data p.all a {
+  color: #5e9000;
+  font-weight: bold;
+}
+.b-sidefield {
+  font-family: 'Philosopher', sans-serif;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+.b-sidefield .label {
+  font-size: 21px;
+  color: #000;
+}
+.b-sidefield .data {
+  font-size: 18px;
+  color: #1e5f0f;
+}
+.b-sidefield .data span {
+  font-size: 15px;
+}
+.b-sidefield .data big {
+  display: block;
+  font-size: 40px;
+  line-height: 45px;
+}
+.b-sidefield .form {
+  margin-top: 10px;
+}
+.b-sidefield .form .field {
+  margin-bottom: 14px;
+  clear: both;
+}
+.b-sidefield .form label {
+  width: 100px;
+  float: left;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  text-align: right;
+}
+.b-sidefield .form label span {
+  color: red;
+}
+.b-sidefield .form .input {
+  margin-left: 115px;
+}
+.b-sidefield .form input[type="text"] {
+  -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 12px;
+  height: 18px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  padding: 3px 4px;
+  width: 170px;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.b-sidefield .form input[type="text"]:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  outline: 0 none;
+}
+.b-sidefield .form input[type="submit"] {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  padding: 3px 10px 3px;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  color: #fff;
+  background-color: #0055cc;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#0088cc), to(#0055cc));
+  background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0088cc), color-stop(100%, #0055cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+  background-image: linear-gradient(top, #0088cc, #0055cc);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0055cc', GradientType=0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #0055cc #0055cc #003580;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  *margin-left: .3em;
+}
+.b-sidefield .form input[type="submit"]:hover,
+.b-sidefield .form input[type="submit"]:active,
+.b-sidefield .form input[type="submit"].active,
+.b-sidefield .form input[type="submit"].disabled,
+.b-sidefield .form input[type="submit"][disabled] {
+  background-color: #0055cc;
+}
+.b-sidefield .form input[type="submit"]:active,
+.b-sidefield .form input[type="submit"].active {
+  background-color: #004099 \9;
+}
+.b-sidefield .form input[type="submit"]:first-child {
+  *margin-left: 0;
+}
+.b-sidefield .form input[type="submit"]:hover {
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -ms-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+.b-sidefield .form input[type="submit"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.b-sidefield .form input[type="submit"]:active {
+  background-image: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  outline: 0;
+}
+.b-sidefield .form textarea {
+  -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  padding: 3px 4px;
+  width: 170px;
+  height: 70px;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.b-sidefield .form textarea:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+  outline: 0 none;
+}
+.b-sidefield .form select {
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 13px;
+  padding: 4px;
+  width: 180px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+}
+.b-sidefield .form select.w-180 {
+  width: 180px;
+}
+.b-sidefield.find_tour .label {
+  color: #bc880d;
+}
+.b-sidefield.find_tour p.comment {
+  text-align: center;
+}
+.b-anounce {
+  margin-top: 10px;
+  line-height: 26px;
+  font-family: 'Philosopher', sans-serif;
+}
+.b-anounce a {
+  text-decoration: none;
+  display: block;
+}
+.b-anounce img {
+  float: left;
+  width: 108px;
+  height: 108px;
+}
+.b-anounce .c-name {
+  font-size: 28px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+.b-anounce .data {
+  margin-left: 118px;
+  padding-bottom: 35px;
+}
+.b-anounce .data .name {
+  font-size: 18px;
+  color: #363636;
+}
+.b-anounce .data .place {
+  font-size: 15px;
+  color: #858585;
+}
+.b-anounce .data .price {
+  font-size: 24px;
+  color: #f78f1e;
+  position: absolute;
+  bottom: 3px;
+}
+.b-anounce .data .price span {
+  font-size: 17px;
+}
+.b-tours {
+  margin-bottom: 30px;
+  position: relative;
+}
+.b-tours .b-anounce {
+  float: left;
+  width: 300px;
+  margin-top: 15px;
+  padding-right: 20px;
+}
